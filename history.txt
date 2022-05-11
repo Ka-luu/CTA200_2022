@@ -1,0 +1,255 @@
+    1  /cita/local/bin/passwd
+    2  pwd
+    3  cd
+    4  pwd
+    5  cd
+    6  mkdir CTA200_2022
+    7  ls -la | m
+    8  ls
+    9  la
+   10  cd CTA_2022/
+   11  cd CTA200_2022/
+   12  pwd
+   13  ssh -g -L5906:lobster:5906 student23@gw.cita.utoronto.ca
+   14  dir
+   15  pwd
+   16  ls
+   17  ls -la
+   18  cd ~CTA200_2022
+   19  pwd
+   20  cd CTA200_2022
+   21  pwd
+   22  mkdir assignment_1
+   23  pwd
+   24  cd assignment_1
+   25  pwd
+   26  which vi
+   27  vi list_dir
+   28  pwd
+   29  cd CTA200_2022/
+   30  pwd
+   31  ls
+   32  which vi
+   33  dir
+   34  list_dir
+   35  ls -la
+   36  ls -la > list_dir
+   37  list_dir
+   38  ls -la
+   39  which vi
+   40  vim
+   41  vim list_dir
+   42  list_dir
+   43  pwd
+   44  ls -la
+   45  ls
+   46  cd assignment_1/
+   47  pwd
+   48  which vi
+   49  vim assignment_1
+   50  assignment_1
+   51  pwd
+   52  vim assignment_1
+   53  assignment_1
+   54  pwd
+   55  vim assignment_1
+   56  rmdir assignment_1/
+   57  rm assignment_1
+   58  pwd
+   59  cd CTA200_2022
+   60  cd CTA200_2022/
+   61  pwd
+   62  cd student23/
+   63  ls
+   64  ls -a
+   65  ls -la
+   66  rm list_dir.swp
+   67  pwd
+   68  which vi
+   69  vim README.md
+   70  pwd
+   71  ls
+   72  cd CTA200_2022/
+   73  ls
+   74  pwd
+   75  cd
+   76  pwd
+   77  ls
+   78  cd CTA200_2022
+   79  pwd
+   80  ls
+   81  cd assignment_1
+   82  pwd
+   83  ls
+   84  cd
+   85  pwd
+   86  dir
+   87  m README.md
+   88  cd ~murray/
+   89  pwd
+   90  ls
+   91  find . -name "Hello" -print
+   92  ls -la
+   93  find . -name "*Hello_world*"
+   94  pwd
+   95  cd
+   96  pwd
+   97  cd ~murray/
+   98  pwd
+   99  find . -name "Hello"
+  100  pwd
+  101  cd CTA200/
+  102  cdCTA200H_2022/
+  103  cd CTA200H_2022/
+  104  ls
+  105  cd CTA200H/
+  106  ls
+  107  cd
+  108  pwd
+  109  cd ~murray/
+  110  pwd
+  111  exit
+  112  exit
+  113  ssh student23@cosmo1.cita.utoronto.ca
+  114  pwd
+  115  vncserver
+  116  ssh student23@cosmo1.cita.utoronto.ca
+  117  cd
+  118  pwd
+  119  ls
+  120  git add main.c main.py
+  121  ls
+  122  cd git_example/
+  123  git add main.c main.py
+  124  ls
+  125  pwd
+  126  git status
+  127  git add main.c main.py
+  128  git init
+  129  git status
+  130  git add main.c main.py
+  131  git log
+  132  vim main.c
+  133  git add main.c main.py
+  134  git branch
+  135  vim main.c
+  136  cd
+  137  pwd
+  138  cd ~murray/
+  139  pwd
+  140  find . -name "Hello"
+  141  cd
+  142  pwd
+  143  ls
+  144  mkdir git_example/
+  145  ls
+  146  cd git_example/
+  147  ls
+  148  pwd
+  149  git init
+  150  ls -la
+  151  git status
+  152  ssh student23@cosmo1.cita.utoronto.ca
+  153  vncserver
+  154  pwd
+  155  ls
+  156  cd ~murray/
+  157  pwd
+  158  find .-name "Hello"
+  159  find . -name "Hello"
+  160  2>/dev/null
+  161  find . -name "Hello" 2>/dev/null
+  162  find . -name "*Hello*" 2>/dev/null
+  163  pwd
+  164  cp Hello_world.c assignment_1/
+  165  cd Papers/
+  166  pwd
+  167  cd tmp/
+  168  pwd
+  169  cp Hello_world.c assignment_1/
+  170  cp Hello_world.c home/student23/CTA200_2022/assignment_1/
+  171  cp Hello_world.c home-2/student23/CTA200_2022/assignment_1/
+  172  cp Hello_world.c home-2/
+  173  cp Hello_world.c student23/
+  174  cp Hello_world.c /home-2/student23/CTA200_2022/assignment_1
+  175  cp Hello_world.c /home-2
+  176  cp Hello_world.c /home-2/student23
+  177  cp Hello_world.c /cita/h/home-2/student23/CTA200_2022/assignment_1
+  178  cp Hello_world.py /cita/h/home-2/student23/CTA200_2022/assginment_1
+  179  pwd
+  180  cd murray/
+  181  pwd
+  182  cd ~murray/
+  183  pwd
+  184  cd /tmp
+  185  pwd
+  186  cd ~murray/
+  187  cd tmp/
+  188  ped
+  189  pwd
+  190  cp Hello_world.py /cita/h/home-2/student23/CTA200_2022/assignment_1
+  191  cd ~student23/
+  192  pwd
+  193  cd home-2/
+  194  pwd
+  195  ls
+  196  cd CTA200_200/assignment_1
+  197  cd CTA200_2022/assignment_1/
+  198  pwd
+  199  ls
+  200  mv Hello_world.c Hello_world_Lou.c
+  201  mv Hello_world.py Hello_world_Lou.py
+  202  ls
+  203  whoami
+  204  python3 - -version
+  205  module avail
+  206  gcc - -version
+  207  gcc --version
+  208  module load gcc
+  209  gcc --version
+  210  module load python
+  211  module list
+  212  gcc Hello_world.c
+  213  gcc Hello_world_Lou.c
+  214  a.out
+  215  m Hello_world_Lou.c
+  216  ls a.*
+  217  a,out
+  218  a.out
+  219  gcc Hello_world_Lou.c
+  220  ls a.*
+  221  a.out
+  222  a.*
+  223  gcc Hello_world_Lou.c
+  224  ./a.out
+  225  module load python
+  226  python Hello_world_Lou.py
+  227  which vi
+  228  vim Hello_world_Lou.py
+  229  python Hello_world_Lou.p
+  230  python Hello_world_Lou.py
+  231  which vi
+  232  vim Hello_world_Lou.c
+  233  gcc Hello_world_Lou.c
+  234  ./a.out
+  235  ./Hello_world_Lou.c
+  236  pwd
+  237  gcc Hello_world_Lou.c
+  238  ./a.out
+  239  gcc Hello_world_Lou.c -o Hello_world_Lou
+  240  ./Hello_world_Lou
+  241  ./Hello_world_Lou > output_c.txt
+  242  cat output_c.txt
+  243  where is output_c.txt
+  244  find . -name "*output*"
+  245  pwd
+  246  ;s
+  247  ls
+  248  python Hello_world_Lou.py > output_python.txt
+  249  cat output_python.txt
+  250  ls
+  251  README.md
+  252  vim README.md
+  253  histroy
+  254  history
+  255  history > history.txt
